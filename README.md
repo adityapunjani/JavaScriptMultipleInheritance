@@ -1,0 +1,2 @@
+javascriptmultipleinheritance
+=============================
