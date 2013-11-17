@@ -1,4 +1,4 @@
-//Inherit function takes n Constructors to extend from as parameters. By @adityapunjani 
+//Inherit function takes n Constructors to extend from as arguments. By @adityapunjani 
 
 //Syntax inhert(Constructor1[, Constructor2[, ...]])
 //Where each argument is function or an object.
