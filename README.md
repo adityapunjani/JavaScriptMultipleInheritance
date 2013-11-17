@@ -8,7 +8,9 @@ Having 3 classes (constructor functions) "Name" , "Age" and "Place" , create an 
 Extra test case: Any objects of "Name" , "Age" , "Place" should NOT be instances of each other.
 
 Live Example: Checkout output in Console.
+
 JSFiddle : http://jsfiddle.net/adityapunjani/uYhPa/
+
 JSBIN : http://jsbin.com/UVOCuViR/1/edit
 
 Usage : Use the function "inherit" in inherit.js file or include the file.
