@@ -34,7 +34,7 @@ function inherit() {
         } else {
             arg = arguments[i];
         }
-        f.prototype = arg.prototype;
+        f.prototype = Object.create(arg.prototype);
         if (i > 0) {
             f.prototype.__proto__ = new Prev();
             //can also use Object.setPrototypeOf(f, new Prev()); in ES6;
