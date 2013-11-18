@@ -86,3 +86,9 @@ console.log("creating object n as new NameConstructor");
 console.log("Is n instance of NameConstructor? : " + (n instanceof NameConstructor));
 console.log("Is n instance of AgeConstructor? : " + (n instanceof AgeConstructor));
 console.log("Is n instance of PlaceConstructor? : " + (n instanceof PlaceConstructor));
+
+var a = new AgeConstructor();
+console.log("creating object a as new AgeConstructor");
+console.log("Is a instance of NameConstructor? : " + (a instanceof NameConstructor));
+console.log("Is a instance of AgeConstructor? : " + (a instanceof AgeConstructor));
+console.log("Is a instance of PlaceConstructor? : " + (a instanceof PlaceConstructor));
