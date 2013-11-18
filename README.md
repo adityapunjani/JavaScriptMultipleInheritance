@@ -13,7 +13,7 @@ Live Example: Checkout output in Console.
 
 JSFiddle : http://jsfiddle.net/adityapunjani/uYhPa/
 
-JSBIN : http://jsbin.com/UVOCuViR/3/edit
+JSBIN : http://jsbin.com/UVOCuViR/5/edit
 
 Usage : Use the function "inherit" in inherit.js file or include the file.
 
