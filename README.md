@@ -19,7 +19,7 @@ Usage : Use the function "inherit" in inherit.js file or include the file.
 
 Inherit function takes n Constructors to extend from as arguments.
 
-Syntax inhert(Constructor1[, Constructor2[, ...]])
+Syntax inherit(Constructor1[, Constructor2[, ...]])
 Where each argument is a function or an object.
 
 If your constructor function does not take any arguments, pass the function itself to the "inherit" function as an argument. Ex var x = inherit(p,q,n) where p,q,n are constructor functions
