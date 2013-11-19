@@ -1,4 +1,4 @@
-Multiple (Multilevel) Inheritance Implemented in JavaScript
+Multiple (Multi-level) Inheritance Implemented in JavaScript
 =============================
 
 What is multiple inheritance? http://en.wikipedia.org/wiki/Multiple_inheritance
@@ -13,7 +13,7 @@ Live Example: Checkout output in Console.
 
 JSFiddle : http://jsfiddle.net/adityapunjani/uYhPa/
 
-JSBIN : http://jsbin.com/UVOCuViR/5/edit
+JSBIN : http://jsbin.com/UVOCuViR/8/edit
 
 Usage : Use the function "inherit" in inherit.js file or include the file.
 
