@@ -1,4 +1,4 @@
-Multiple (Multi-level) Inheritance Implemented in JavaScript
+Multiple Inheritance Implemented in JavaScript
 =============================
 
 What is multiple inheritance? http://en.wikipedia.org/wiki/Multiple_inheritance
