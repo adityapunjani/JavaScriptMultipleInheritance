@@ -12,6 +12,7 @@
 
 
 Object.prototype.instanceOf = function (obj) {
+    if(this instanceof obj) return true;
     if (this.constructor === obj) return true;
     if (this.constructors) {
         for (var i = 0; i < this.constructors.length; i++) {
