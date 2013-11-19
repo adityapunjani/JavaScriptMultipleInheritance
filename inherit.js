@@ -6,7 +6,8 @@
 //If your constructor function does not take arguments, pass the function itself to the "inherit" function as an argument. Ex var x = inherit(p,q,n) where p,q,n are constructor functions
 
 //If you want to pass arguments to a constructor function, create an an object with "Constructor" (capital C) key defined as the constructor function and "Arguments" (capital A) key defined as an array of all arguments the constructor function takes in order. 
-//Ex inherit(x, {"Constructor" : y, "Arguments" : [1,"asd",true]}, z) where x & z are constructor functions and the 2nd argument is an object with "Constructor" key as constructor function x and "Arguments" key as array of all arguments the constructor function takes. 
+//Ex inherit(x, {"Constructor" : y, "Arguments" : [1,"asd",true]}, z) 
+//where x & z are constructor functions and the 2nd argument is an object with "Constructor" key as constructor function x and "Arguments" key as array of all arguments the constructor function takes. 
   
 
 
@@ -75,6 +76,7 @@ function inherit() {
 
 //Implemented Object.instanceOf to replace the "instanceof" operator so as to satisfy instanceof conditions.
 
-//Dynamically adding prototype properties to any constructor should reflect for inherited object as well. This is implemented using Object.observe and will only work for latest chrome browser whith experimental JavaScript flag turned on in chrome://flags/ or any other browser that supports ES6
+//Dynamically adding prototype properties to any constructor should reflect for inherited object as well. 
+//This is implemented using Object.observe and will only work for latest chrome browser whith experimental JavaScript flag turned on in chrome://flags/ or any other browser that supports ES6
 
 //Todo Implement Object.observe polyfill for ES5.
