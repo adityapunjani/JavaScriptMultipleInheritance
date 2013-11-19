@@ -1,8 +1,11 @@
-//Example : Having 3 classes "Name" , "Age" and "Place" create an object "person" which should inherit from all three constructors. It should have all the prototype properties of each constructor and 'own'  properties of each constructor. Also "person" should be an instance of all 3. Any instances of individual constructors should not be instances of other constructors.
+//Example : Having 3 classes "Name" , "Age" and "Place" create an object "person" which should inherit from all three constructors. 
+//It should have all the prototype properties of each constructor and 'own'  properties of each constructor. 
+//Also "person" should be an instance of all 3. Any instances of individual constructors should not be instances of other constructors.
 
 //Implemented Object.instanceOf to replace the "instanceof" operator so as to satisfy the above conditions.
 
-//Dynamically adding prototype properties to any constructor should reflect for "person" object as well. This is implemented using Object.observe and will only work for latest chrome browser whith experimental JavaScript flag turned on in chrome://flags/ or any other browser that supports ES6
+//Dynamically adding prototype properties to any constructor should reflect for "person" object as well. 
+//This is implemented using Object.observe and will only work for latest chrome browser whith experimental JavaScript flag turned on in chrome://flags/ or any other browser that supports ES6
 
 //Todo Implement Object.observe polyfill for ES5.
 
@@ -68,9 +71,6 @@ function inherit() {
     obj.constructors = constructors;
     return obj;
 }
-
-//Example : Having 3 classes "Name" , "Age" and "Place" create an object "person" which should inherit from all three constructors. It should have all the prototype properties of each constructor and 'own'  properties of each constructor. Also "person" should be an instance of all 3. Thus dynamically adding prototypes properties to any constructor should reflect for "person" as well.
-
 
 var NameConstructor = function n() {
     this.printName = function () {
