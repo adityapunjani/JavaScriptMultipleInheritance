@@ -1,5 +1,4 @@
 //Example : Having 3 classes "Name" , "Age" and "Place" create an object "person" which should inherit from all three constructors. It should have all the prototype properties of each constructor and 'own'  properties of each constructor. Also "person" should be an instance of all 3. Thus dynamically adding prototypes properties to any constructor should reflect for "person" as well.
-//Extra test case: Any objects of "Name" , "Age" , "Place" should NOT be instances of each others constructor functions but only its own constructor function.
 
 function inherit() {
     var Prev, f, from, obj,params,arg, i = 0;
@@ -81,14 +80,3 @@ console.log("Log person.name: " + (person.name));
 console.log("Log person.age: " + (person.age));
 console.log("Log person.place: " + (person.place));
 
-var n = new NameConstructor();
-console.log("creating object n as new NameConstructor");
-console.log("Is n instance of NameConstructor? : " + (n instanceof NameConstructor));
-console.log("Is n instance of AgeConstructor? : " + (n instanceof AgeConstructor));
-console.log("Is n instance of PlaceConstructor? : " + (n instanceof PlaceConstructor));
-
-var a = new AgeConstructor();
-console.log("creating object a as new AgeConstructor");
-console.log("Is a instance of NameConstructor? : " + (a instanceof NameConstructor));
-console.log("Is a instance of AgeConstructor? : " + (a instanceof AgeConstructor));
-console.log("Is a instance of PlaceConstructor? : " + (a instanceof PlaceConstructor));
