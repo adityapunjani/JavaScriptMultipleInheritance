@@ -24,7 +24,7 @@ Where each argument is a function or an object.
 
 If your constructor function does not take any arguments, pass the function itself to the "inherit" function as an argument. Ex var x = inherit(p,q,n) where p,q,n are constructor functions
 
-If you want to pass arguments to a constructor function, create an an object with "Constructor" (capital C) key defined as the constructor function and "Arguments" (capital A) key defined as an array of all arguments the constructor function takes in order. 
+If you want to pass arguments to a constructor function, create an object with "Constructor" (capital C) key defined as the constructor function and "Arguments" (capital A) key defined as an array of all arguments the constructor function takes in order. 
 Ex inherit(x, {"Constructor" : y, "Arguments" : [1,"asd",true]}, z) where x & z are constructor functions and the 2nd argument is an object with "Constructor" key as constructor function x and "Arguments" key as array of all arguments the constructor function takes. 
 
 Implemented Object.instanceOf to replace the "instanceof" operator so as to satisfy the instance of conditions.
